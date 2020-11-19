@@ -30,8 +30,7 @@
                 {
                     "type": "git",
                     "url" : "https://github.com/tmewett/BrogueCE.git",
-                    "tag":  "v1.8.3"
-
+                    "tag":  "v1.9.2"
                 },
                 {
                     "type": "script",
