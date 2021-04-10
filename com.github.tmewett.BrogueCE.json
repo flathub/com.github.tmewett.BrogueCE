@@ -18,7 +18,7 @@
             "buildsystem": "simple",
             "build-commands": [
                 "export DATADIR=/app/lib/brogue/",
-                "make DATADIR=/app/lib/brogue/",
+                "make DATADIR=/app/lib/brogue/ RELEASE=YES",
                 "install -Dm755 bin/brogue /app/lib/brogue/brogue",
                 "install -Dm755 brogue /app/bin/brogue",
                 "cp -r bin/assets /app/lib/brogue/assets",
@@ -30,7 +30,7 @@
                 {
                     "type": "git",
                     "url" : "https://github.com/tmewett/BrogueCE.git",
-                    "tag":  "v1.9.2"
+                    "tag":  "v1.9.3"
                 },
                 {
                     "type": "script",
