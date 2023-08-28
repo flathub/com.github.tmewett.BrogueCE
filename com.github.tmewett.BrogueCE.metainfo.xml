@@ -4,6 +4,7 @@
     <launchable type="desktop-id">com.github.tmewett.BrogueCE.desktop</launchable>
     <name>BrogueCE</name>
     <releases>
+      <release version="1.12" date="2023-02-02"></release>
       <release version="1.11.1" date="2022-05-24"></release>
       <release version="1.10.1" date="2021-08-07"></release>
       <release version="1.10"  date="2021-06-23"></release>
@@ -21,9 +22,18 @@
     <url type="bugtracker">https://github.com/tmewett/BrogueCE/issues</url>
     <screenshots>
       <screenshot type="default">
-        <image>https://dl.flathub.org/repo/screenshots/com.github.tmewett.BrogueCE-stable/752x423/com.github.tmewett.BrogueCE-7a9363eb8a1ca6ede2f70bf9a1f6a339.png</image>
+        <image>https://dl.flathub.org/repo/screenshots/com.github.tmewett.BrogueCE-stable/752x423/com.github.tmewett.BrogueCE-5d4557f183aa165a38963c3dfde999a2.png</image>
         <caption>Main Window</caption>
       </screenshot>
+<!--
+      <screenshot type="default">
+        <image>https://github.com/flathub/com.github.tmewett.BrogueCE/raw/master/com.github.tmewett.BrogueCE.screenshot-0.png</image>
+        <caption>Title screen</caption>
+      </screenshot>
+      <screenshot>
+        <image>https://github.com/flathub/com.github.tmewett.BrogueCE/raw/master/com.github.tmewett.BrogueCE.screenshot-1.png</image>
+      </screenshot>
+-->
     </screenshots>
     <summary>Brogue: Community Edition - a community-lead fork of the much-loved minimalist roguelike game </summary>
     <description><p>Brogue is a single-player strategy game set in the halls of a mysterious and randomly-generated dungeon. The objective is simple enough -- retrieve the fabled Amulet of Yendor from the 26th level -- but the dungeon is riddled with danger. Horrifying creatures and devious, trap-ridden terrain await. Yet it is also riddled with weapons, potions, and artifacts of forgotten power. Survival demands strength and cunning in equal measure as you descend, making the most of what the dungeon gives you. You will make sacrifices, narrow escapes, and maybe even some friends along the way -- but will you be one of the lucky few to return alive?</p></description>
