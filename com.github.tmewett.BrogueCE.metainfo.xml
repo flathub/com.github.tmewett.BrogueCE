@@ -4,6 +4,7 @@
     <launchable type="desktop-id">com.github.tmewett.BrogueCE.desktop</launchable>
     <name>BrogueCE</name>
     <releases>
+      <release version="1.15.1" date="2026-02-12"></release>
       <release version="1.14.1" date="2024-08-31"></release>
       <release version="1.14" date="2024-08-04"></release>
       <release version="1.13" date="2023-10-05"></release>
