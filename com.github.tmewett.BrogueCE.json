@@ -54,8 +54,8 @@
                     "path": "brogue.desktop"
                 },
                 {
-                  "type": "file",
-                  "path": "com.github.tmewett.BrogueCE.metainfo.xml"
+                    "type": "file",
+                    "path": "com.github.tmewett.BrogueCE.metainfo.xml"
                 }
             ]
         }
