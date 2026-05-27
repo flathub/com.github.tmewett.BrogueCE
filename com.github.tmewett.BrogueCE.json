@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.tmewett.BrogueCE",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "24.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "brogue",
     "finish-args": [
@@ -13,9 +13,14 @@
         "--device=dri"
     ],
     "modules": [
+        "shared-modules/SDL2/SDL2_image.json",
         {
             "name": "brogue",
             "buildsystem": "simple",
+            "build-options": {
+                "//": "A quick fix for: `fatal error: SDL_image.h: No such file or directory` error",
+                "cflags": "-isystem /app/include/SDL2"
+            },
             "build-commands": [
                 "export DATADIR=/app/lib/brogue/",
                 "make DATADIR=/app/lib/brogue/ RELEASE=YES",
@@ -30,7 +35,8 @@
                 {
                     "type": "git",
                     "url" : "https://github.com/tmewett/BrogueCE.git",
-                    "tag":  "v1.15.1"
+                    "tag":  "v1.15.1",
+                    "commit": "1ba4240b7a928ddf0ffb772717bf1d433cd63804"
                 },
                 {
                     "type": "script",
