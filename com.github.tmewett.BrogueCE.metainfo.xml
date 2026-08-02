@@ -19,7 +19,7 @@
     <url type="bugtracker">https://github.com/tmewett/BrogueCE/issues</url>
     <url type="vcs-browser">https://github.com/tmewett/BrogueCE</url>
     <launchable type="desktop-id">com.github.tmewett.BrogueCE.desktop</launchable>
-    <developer_name>BrogueCE</developer_name>
+    <developer_name>Brogue CE developers</developer_name>
     <content_rating type="oars-1.0">
       <content_attribute id="violence-fantasy">mild</content_attribute>
       <content_attribute id="language-humor">mild</content_attribute>
